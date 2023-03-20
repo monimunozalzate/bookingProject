@@ -1,0 +1,54 @@
+.availableContainer {
+    background-color: var(--lightGrey);
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.calendarContainer {
+    margin-inline: 3vw;
+}
+
+.availableContainer h1 {
+    font-size: 1.5rem;
+    color: black;
+    padding-bottom: 0.5rem;
+}
+
+.availableContainer .componentsBox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    .availableContainer .componentsBox {
+        flex-direction: column;
+    }
+    .availableContainer .componentsBox .datePicker {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .availableContainer {
+        padding: 1rem;
+    }
+}
+
+.sc-beySbM.sc-dJGLCQ.kHRZO.SqlbA {
+    display: none;
+}
+
+
+/* big screens */
+
+@media (min-width: 1441px) {
+    .availableContainer .componentsBox .datePicker {
+        width: 50%;
+    }
+}

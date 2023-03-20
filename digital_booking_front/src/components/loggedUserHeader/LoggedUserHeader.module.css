@@ -1,0 +1,93 @@
+.flex {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.flex a {
+    padding-right: 1rem;
+}
+
+.userName {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.initials {
+    position: absolute;
+    left: 14%;
+    top: 12%;
+    color: white;
+    font-weight: 700;
+}
+
+.user {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background-color: var(--darkGrey);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.userTextTop,
+.userTextBottom {
+    color: var(--darkGrey);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+.userTextTop {
+    opacity: 0.6;
+}
+
+.rightText {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+}
+
+@media screen and (max-width: 600px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .userTextBottom {
+        text-align: right;
+    }
+
+    .initials {
+        left: 22%;
+        top: 18%;
+    }
+    .flex .rightText {
+        align-items: flex-end;
+    }
+    .flex svg {
+        display: none;
+    }
+    .flex a {
+        padding: 0%;
+    }
+    .flex a button {
+        background-color: white;
+        color: black;
+    }
+    .userName {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}

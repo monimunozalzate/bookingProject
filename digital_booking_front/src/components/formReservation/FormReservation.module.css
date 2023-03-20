@@ -1,0 +1,53 @@
+.form {
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1rem 0 1.5rem;
+    margin: 0%;
+    gap: 0.8rem;
+    background-color: white;
+}
+
+.formContainer .formInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+}
+
+.formContainer .formInfo .formDivisions {
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    gap: 0.3rem;
+    width: 50%;
+    font-size: 0.7rem
+}
+
+.formContainer .formInfo .formDivisions label {
+    font-weight: 700;
+}
+
+.formContainer .formInfo .formDivisions input {
+    font-weight: 700;
+    height: 2.5rem;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    padding-left: 0.5rem;
+}
+
+.formContainer .formInfo .formDivisions input:disabled {
+    background-color: var(--lightGrey);
+ }
+
+
+/* ----------media phone--------------------- */
+
+@media(max-width:600px) {
+    .formContainer .formInfo {
+        flex-direction: column;
+        width: 100%;
+    }
+    .formContainer .formInfo .formDivisions {
+        width: 100%;
+    }
+}

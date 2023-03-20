@@ -1,0 +1,29 @@
+.ant-picker-dropdown-placement-topLeft,
+.ant-picker-dropdown-placement-bottomLeft {
+    width: 29%;
+}
+
+
+/* .ant-picker-footer {
+    display: none;
+} */
+
+
+/* ----media tablet---------- */
+
+@media(max-width:900px) {
+    .ant-picker-dropdown-placement-topLeft,
+    .ant-picker-dropdown-placement-bottomLeft {
+        width: 44%;
+    }
+}
+
+
+/* ---------media mobile------------- */
+
+@media(max-width:600px) {
+    .ant-picker-dropdown-placement-topLeft,
+    .ant-picker-dropdown-placement-bottomLeft {
+        width: 84%;
+    }
+}

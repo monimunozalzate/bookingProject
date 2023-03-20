@@ -1,0 +1,93 @@
+#mobileCalendar .sc-beySbM.lihEYZ,
+#mobileCalendar .sc-hABAzo.bUekuf {
+    display: none;
+    border: none;
+}
+
+#mobileCalendar .sc-fsYeqs.itdJsF {
+    box-shadow: none;
+}
+
+#mobileCalendar .sc-hLQRIN.jHGEvX {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+#mobileCalendar .jZRQGp,
+#mobileCalendar .cAgktE {
+    height: 3rem;
+    font-weight: 300;
+    min-height: 0;
+    box-shadow: none;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#mobileCalendar .kaBvzo,
+#mobileCalendar .bwPHUr {
+    background-color: var(--orange);
+    box-shadow: var(--orange);
+}
+
+#mobileCalendar .sc-eDLJxc.dBgcZi {
+    position: relative;
+    width: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 0.5rem;
+}
+
+#mobileCalendar .sc-dmyDGi.gvhrmr {
+    padding-top: 0.5rem;
+    height: auto;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#mobileCalendar .sc-ktwOSD.haphFh {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1rem 2.5rem var(--darkGrey);
+}
+
+#mobileCalendar.sc-dmyDGi.lVQoS {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#mobileCalendar .sc-beySbM.gKcNJZ {
+    justify-content: center;
+}
+
+#mobileCalendar .sc-beySbM.sc-fHekdT.cOpgwe.elJLfE,
+#mobileCalendar .sc-dmyDGi.gqZwNj {
+    height: 17rem;
+    border-radius: 5px;
+}
+
+
+/* --flechas--- */
+
+#mobileCalendar .sc-guDLRT.cKbNUB {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+#mobileCalendar .sc-csKIKE.bkWxAH,
+#mobileCalendar .sc-csKIKE.kOhvir {
+    border: 1px solid white;
+}
+
+#mobileCalendar .sc-beySbM.gKcNJZ {
+    grid-template-columns: repeat(7, 36px) !important;
+}

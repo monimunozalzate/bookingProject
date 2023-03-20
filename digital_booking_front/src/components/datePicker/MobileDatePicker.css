@@ -1,0 +1,61 @@
+.sc-ktwOSD.kqZhos {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.kqZhos {
+    padding: 1rem;
+}
+
+.sc-qZqnM.ffXpNA {
+    padding: 0.5rem;
+}
+
+#mobileDatePicker .sc-dmyDGi.jsDBYG,
+#mobileDatePicker .sc-dmyDGi.bDopAG {
+    top: -8px;
+}
+
+#mobileDatePicker .sc-csKIKE.lgPCKr {
+    width: 40px;
+    height: 40px;
+    border: 10px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#mobileDatePicker .sc-csKIKE.lgPCKr svg {
+    color: #000;
+}
+
+.sc-irLwvL.eYddtP,
+.sc-irLwvL.ibDgNS {
+    color: white;
+}
+
+#mobileDatePicker .sc-beySbM.gKcNJZ {
+    grid-template-columns: repeat(7, 42px);
+    justify-content: center;
+}
+
+#mobileDatePicker .sc-fsYeqs.itdJsF {
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width: 599px) {
+    #mobileDatePicker .sc-ktwOSD.kqZhos {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #mobileDatePicker .sc-beySbM.gKcNJZ {
+        grid-template-columns: repeat(7, 34px);
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #mobileDatePicker .sc-beySbM.gKcNJZ {
+        grid-template-columns: repeat(7, 29px);
+    }
+}

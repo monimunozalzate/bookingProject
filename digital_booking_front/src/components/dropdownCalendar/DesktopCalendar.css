@@ -1,0 +1,184 @@
+#desktopCalendar {
+    width: 100%;
+}
+
+#desktopCalendar .sc-dmyDGi.sc-blmETK.lVQoS.fApqrT,
+#desktopCalendar ._iconDiv_2611u_65 {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+#desktopCalendar .sc-beySbM.sc-dJGLCQ.kHRZO.SqlbA {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+/* input */
+
+#desktopCalendar .sc-jTQDnj.jolXKU,
+#desktopCalendar .sc-jTQDnj.bYuRhF {
+    height: 3rem;
+    box-shadow: none;
+    width: 100%;
+    padding: 0;
+    border-radius: 5px;
+    min-height: 0;
+    font: inherit;
+    font-size: 1rem;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+/* label */
+
+#desktopCalendar .sc-jTQDnj.bYuRhF {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 1;
+}
+
+#desktopCalendar .sc-hLQRIN.jHGEvX {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 0%;
+    gap: 1rem;
+    height: 2.5rem;
+    width: 50%;
+    border-radius: 5px 5px;
+}
+
+#desktopCalendar .sc-eDLJxc.biPlZV {
+    position: relative;
+    width: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 0.5rem;
+}
+
+#desktopCalendar .sc-dmyDGi.gvhrmr {
+    position: absolute;
+    margin-top: 1rem;
+    max-width: 44rem;
+    border-radius: 0 0 8px 8px;
+    z-index: 100;
+    box-shadow: 0 1rem 2.5rem var(--darkGrey);
+    background-color: white;
+    left: -30%;
+}
+
+#desktopCalendar .sc-ktwOSD.kqZhos {
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 5px 5px;
+}
+
+#desktopCalendar .sc-csKIKE.lgPCKr {
+    border: 1px solid white;
+    background-color: white;
+}
+
+#desktopCalendar .sc-irLwvL.ibDgNS,
+#desktopCalendar .sc-irLwvL.eYddtP {
+    color: black;
+}
+
+#desktopCalendar.sc-fsYeqs.itdJsF,
+#desktopCalendar.sc-fsYeqs {
+    box-shadow: none;
+    border-radius: 50%;
+}
+
+.sc-fsYeqs.itdJsF {
+    box-shadow: none;
+    border-radius: 50%;
+}
+
+#desktopCalendar.sc-fsYeqs.kaBvzo,
+#desktopCalendar .kaBvzo,
+#desktopCalendar .sc-fsYeqs.bwPHUr {
+    background-color: var(--orange);
+    box-shadow: var(--orange);
+    border-radius: 50%;
+}
+
+.sc-fsYeqs.kaBvzo {
+    border-radius: 50%;
+}
+
+.kaBvzo {
+    color: var(--orange);
+    background-color: var(--orange);
+    box-shadow: none;
+}
+
+.sc-guDLRT.bnbWFo,
+.sc-fsYeqs.bwPHUr {
+    border-radius: 50%;
+}
+
+#desktopCalendar .sc-beySbM.gKcNJZ {
+    grid-template-columns: repeat(7, 38px) !important;
+}
+
+
+/* -----------------media query------------------------- */
+
+@media (max-width: 900px) {
+    #desktopCalendar .sc-dmyDGi.gvhrmr {
+        left: -70%;
+    }
+}
+
+@media (max-width: 750px) {
+    #desktopCalendar .sc-dmyDGi.gvhrmr {
+        left: -95%;
+    }
+}
+
+@media (max-width: 720px) {
+    #desktopCalendar .sc-dmyDGi.gvhrmr {
+        left: -110%;
+    }
+}
+
+@media (max-width: 651px) {
+    #desktopCalendar .sc-dmyDGi.gvhrmr {
+        left: -135%;
+    }
+}
+
+
+/* ----------------big screens------------ */
+
+@media (min-width: 1441px) {
+    #desktopCalendar .sc-dmyDGi.gvhrmr {
+        width: 60rem;
+    }
+    #desktopCalendar .sc-dmyDGi.gvhrmr {
+        font-size: 1.5rem;
+    }
+    #desktopCalendar .sc-gLLvby.jCDiFD {
+        font-size: 14px;
+    }
+    #desktopCalendar .sc-fsYeqs.itdJsF {
+        height: 40px;
+        width: 40px;
+    }
+    #desktopCalendar .sc-ktwOSD.kqZhos {
+        padding: 0 2rem 2rem;
+    }
+    #desktopCalendar .sc-jTQDnj.bYuRhF {
+        font-size: 1.2rem;
+    }
+}

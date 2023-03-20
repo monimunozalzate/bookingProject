@@ -1,0 +1,80 @@
+#desktopDatePicker {
+    margin-top: 1rem;
+}
+
+#desktopDatePicker .sc-ktwOSD.kqZhos {
+    width: 100%;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#desktopDatePicker .sc-csKIKE.lgPCKr {
+    border: 10px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#desktopDatePicker .lgPCKr {
+    width: 40px;
+    height: 40px;
+}
+
+#desktopDatePicker .sc-csKIKE.lgPCKr svg {
+    color: black;
+}
+
+.sc-beySbM.sc-fHekdT.febfxO.ijLVDP {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: normal;
+}
+
+#desktopDatePicker .sc-beySbM.gKcNJZ {
+    grid-template-columns: repeat(7, 38px);
+}
+
+@media (max-width: 1100px) {
+    #desktopDatePicker .sc-beySbM.gKcNJZ {
+        grid-template-columns: repeat(7, 35px);
+    }
+}
+
+@media (max-width: 900px) {
+    #desktopDatePicker .sc-beySbM.gKcNJZ {
+        grid-template-columns: repeat(7, 38px);
+    }
+}
+
+@media (max-width: 700px) {
+    #desktopDatePicker .sc-beySbM.gKcNJZ {
+        grid-template-columns: repeat(7, 30px);
+    }
+}
+
+
+/* big screens */
+
+@media (min-width: 1700px) {
+    #desktopDatePicker .sc-gLLvby.djcNzj {
+        font-size: 1.4rem;
+    }
+    #desktopDatePicker .itdJsF {
+        height: 46px;
+        width: 46px;
+        font-size: 1.2rem;
+    }
+    #desktopDatePicker .jCDiFD {
+        font-size: 1.2rem;
+    }
+    #desktopDatePicker .sc-qZqnM.ffXpNA {
+        /* width: 30%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #desktopDatePicker .sc-beySbM.gKcNJZ {
+        gap: 0.5rem;
+    }
+}
